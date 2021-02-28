@@ -9,12 +9,12 @@ const ShowsItem = ({ show, match }) => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    if (match.params.id && match.params.id === show.id) {
+    if (match.params.id && match.params.id == show.id) {
       setIsActive(true);
     } else {
       setIsActive(false);
     }
-  }, [activeShow , match.params.id , show.id]);
+  }, [activeShow]);
 
   return (
     <Link
