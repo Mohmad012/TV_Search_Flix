@@ -16,7 +16,7 @@ const Show = (props) => {
     if (props.match.params.id) {
       getActiveShow(props.match.params.id);
     }
-  }, []);
+  }, [props.match.params.id]);
 
   useEffect(() => {
     if (activeShow && activeShow.image) {
@@ -37,7 +37,7 @@ const Show = (props) => {
   return (
     <section className="show" style={bgStyle}>
       <div className="container">
-        <div className="row">
+        <div className="row imgs">
           {loading ? (
             <div className="col-full">
               <Loader />

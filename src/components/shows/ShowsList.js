@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 
 import ShowsItem from "./ShowsItem";
 import Loader from "../utilites/Loader";
@@ -11,7 +11,7 @@ const ShowsList = () => {
   return (
     <section className="shows">
       <div className="container">
-        <div className="row py-2 justify-between">
+        <div className="row imgs py-2 justify-between">
           {loading && (
             <div className="col-full">
               <Loader />

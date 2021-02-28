@@ -44,7 +44,16 @@ const Search = (props) => {
       : "col-2-4 search-content mx-auto pt-6 pb-2";
 
   return (
-    <section className="search" style={{ background: `url(${homeBg})` }}>
+    <section 
+          className="search" 
+          style={
+            { 
+              background: `url(${homeBg})` , 
+              backgroundAttachment: 'fixed' ,
+              backgroundSize: 'cover',
+              backgroundPosition:' center center'
+            }
+          }>
       <div className="container">
         <div className="row">
           <div className={styleClasses}>

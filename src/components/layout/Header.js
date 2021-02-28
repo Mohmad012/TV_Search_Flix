@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="row items-center justify-between">
+        <div className="row brand-row items-center justify-between">
           <Link className="brand" to="/">
             <img src={logo} alt="Logo" />
           </Link>
