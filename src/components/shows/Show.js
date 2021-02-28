@@ -16,7 +16,7 @@ const Show = (props) => {
     if (props.match.params.id) {
       getActiveShow(props.match.params.id);
     }
-  }, [props.match.params.id]);
+  }, [props.match.params.id , getActiveShow]);
 
   useEffect(() => {
     if (activeShow && activeShow.image) {

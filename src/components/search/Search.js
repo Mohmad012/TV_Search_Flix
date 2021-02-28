@@ -25,7 +25,7 @@ const Search = (props) => {
         searchShows(key);
       }
     }
-  }, []);
+  }, [props.location.search , searchShows]);
 
   const handleSearchForm = (e) => {
     e.preventDefault();
@@ -48,7 +48,7 @@ const Search = (props) => {
       <div className="container">
         <div className="row">
           <div className={styleClasses}>
-            {props.size == "large" ? (
+            {props.size === "large" ? (
               <>
                 <h1>Find your next Show</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
