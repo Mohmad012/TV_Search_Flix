@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TV_Search_Flix/static/css/main.8e8884a7.chunk.css",
+    "main.js": "/TV_Search_Flix/static/js/main.5b649d18.chunk.js",
+    "main.js.map": "/TV_Search_Flix/static/js/main.5b649d18.chunk.js.map",
+    "runtime-main.js": "/TV_Search_Flix/static/js/runtime-main.0b96d6a2.js",
+    "runtime-main.js.map": "/TV_Search_Flix/static/js/runtime-main.0b96d6a2.js.map",
+    "static/js/2.3c3fb1ad.chunk.js": "/TV_Search_Flix/static/js/2.3c3fb1ad.chunk.js",
+    "static/js/2.3c3fb1ad.chunk.js.map": "/TV_Search_Flix/static/js/2.3c3fb1ad.chunk.js.map",
+    "static/js/3.ef3829aa.chunk.js": "/TV_Search_Flix/static/js/3.ef3829aa.chunk.js",
+    "static/js/3.ef3829aa.chunk.js.map": "/TV_Search_Flix/static/js/3.ef3829aa.chunk.js.map",
+    "index.html": "/TV_Search_Flix/index.html",
+    "static/css/main.8e8884a7.chunk.css.map": "/TV_Search_Flix/static/css/main.8e8884a7.chunk.css.map",
+    "static/js/2.3c3fb1ad.chunk.js.LICENSE.txt": "/TV_Search_Flix/static/js/2.3c3fb1ad.chunk.js.LICENSE.txt",
+    "static/media/home-bg.aff44180.jpg": "/TV_Search_Flix/static/media/home-bg.aff44180.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b96d6a2.js",
+    "static/js/2.3c3fb1ad.chunk.js",
+    "static/css/main.8e8884a7.chunk.css",
+    "static/js/main.5b649d18.chunk.js"
+  ]
+}
