@@ -8,7 +8,7 @@ import Header from "./components/layout/Header";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TV_Search_Flix">
       <Header />
       <Switch>
         <Route path="/" exact component={HomePage} />
