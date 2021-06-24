@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TV_Search_Flix/static/css/main.8e8884a7.chunk.css",
-    "main.js": "/TV_Search_Flix/static/js/main.5b649d18.chunk.js",
-    "main.js.map": "/TV_Search_Flix/static/js/main.5b649d18.chunk.js.map",
+    "main.js": "/TV_Search_Flix/static/js/main.24310dfd.chunk.js",
+    "main.js.map": "/TV_Search_Flix/static/js/main.24310dfd.chunk.js.map",
     "runtime-main.js": "/TV_Search_Flix/static/js/runtime-main.0b96d6a2.js",
     "runtime-main.js.map": "/TV_Search_Flix/static/js/runtime-main.0b96d6a2.js.map",
     "static/js/2.3c3fb1ad.chunk.js": "/TV_Search_Flix/static/js/2.3c3fb1ad.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0b96d6a2.js",
     "static/js/2.3c3fb1ad.chunk.js",
     "static/css/main.8e8884a7.chunk.css",
-    "static/js/main.5b649d18.chunk.js"
+    "static/js/main.24310dfd.chunk.js"
   ]
 }
